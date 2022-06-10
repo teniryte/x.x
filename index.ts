@@ -3,6 +3,7 @@ import plural from './plural';
 import flatten from './flatten';
 import proto from './proto';
 import query from './query';
+import expression from './expression';
 
 export default {
   base64,
@@ -10,4 +11,5 @@ export default {
   flatten,
   proto,
   query,
+  expression,
 };
