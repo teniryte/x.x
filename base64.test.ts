@@ -5,11 +5,11 @@ import * as chai from 'chai';
 const x = chai.expect;
 
 describe('base64', () => {
-  it('encodes', () => {
+  it('encodes string', () => {
     x(encode('Hello!')).equal('SGVsbG8h');
   });
 
-  it('decodes', () => {
+  it('decodes string', () => {
     x(decode('SGVsbG8h')).equal('Hello!');
   });
 });
